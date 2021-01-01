@@ -1,11 +1,15 @@
+一个文科妹子写的GitHub的教程，可以了解下GitHub这个东东，有啥好处[可以让头秃(逃] (https://www.zhihu.com/question/20070065/answer/79557687)
+
 # 配置
 ## 1. 安装git
 - Windows 平台上安装, [下载链接](https://npm.taobao.org/mirrors/git-for-windows/v2.30.0.windows.1/Git-2.30.0-64-bit.exe)
+一路确定就可以
 ## 2. git 与 github配置
 - 参考文章：[Git的使用以及GitHub的配置
 ](https://www.jianshu.com/p/6ae3697a7c93)
 ### 1) git配置
 - 安装好git后，在任意文件夹，都可以右键，点"git bash here"打开git终端，在此可以输入git指令
+（ps. bash 就类似python shell, 写一句指令，回车执行）
 - git初始设置,指令如下，自己修改自己相应用户名、邮箱
 ```
 git config --global user.name WangYb
@@ -35,7 +39,7 @@ ssh-keygen -t rsa -C "wangyb@xiaoma.cn" //记得改自己邮箱
 - github注册就可以了
 
 #### b) 配置公钥（具体如果不会，看上面参考文章，有图）
-github网站 -> 右上角头像 -> settings -> SSH and GPG keys -> New SSH key -> title随意，key就复制我们**id_rsa.pub**里的字符
+github网站 -> 右上角头像 -> settings -> SSH and GPG keys -> New SSH key -> title随意，key就复制我们**id_rsa.pub**（这个文件在哪呢？/Users/你的电脑名/.ssh/）里的字符
 - 注意一会github会给你发邮件确认，确认下就行了。
 - 本地测试连接
 ```
